@@ -1,0 +1,15 @@
+img {
+   float: left;
+   margin-right: 50px;
+   padding: 10px; 
+}
+a:hover {
+  color: lightpink;
+}
+a {
+  color: #A78BE4;
+}
+a:visisted {
+  color: #634E8E;
+}
+
