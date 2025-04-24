@@ -8,8 +8,32 @@ a:hover {
 }
 a {
   color: #A78BE4;
-}
-a:visisted {
-  color: #634E8E;
+{
+
+a {
+  text-decoration: none;
 }
 
+.topnav {
+   background-color: #333333;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #DDDDDD;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #04AA6D;
+   color: black;
+}
