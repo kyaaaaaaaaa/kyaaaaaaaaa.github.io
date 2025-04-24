@@ -8,11 +8,12 @@ a:hover {
 }
 a {
   color: #A78BE4;
-{
+}
 
 a {
   text-decoration: none;
 }
+
 
 .topnav {
    background-color: #333333;
@@ -37,3 +38,8 @@ a {
    background-color: #04AA6D;
    color: black;
 }
+
+body {
+  background-color: #f7d1ff;
+}
+
