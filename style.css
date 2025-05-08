@@ -4,10 +4,10 @@ img {
    padding: 10px; 
 }
 a:hover {
-  color: lightpink;
+  color: black;
 }
 a {
-  color: #A78BE4;
+  color: #ffffff;
 }
 
 a {
@@ -16,13 +16,13 @@ a {
 
 
 .topnav {
-   background-color: #333333;
+   background-color: #023047;
    overflow: hidden;
 }
 
 .topnav a {
    float: left;
-   color: #f2f2f2;
+   color: #ffffff;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -35,16 +35,16 @@ a {
 }
 
 .topnav a.active {
-   background-color: #bf8ff2;
+   background-color: #219ebc;
    color: black;
 }
 
 body {
-  background-color: #ddceed;
+  background-color: #8ecae6;
 }
 
 .colorBand {
-   background: #bf8ff2;
+   background: #219ebc;
    height: 90px;
    width: 100%;
 }
@@ -145,4 +145,9 @@ img {
   opacity: 1;
 }
 
-
+h1,p,a{
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
