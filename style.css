@@ -144,6 +144,9 @@ img {
 .demo:hover {
   opacity: 1;
 }
+#udon {
+  clip-path: circle(50%);
+}
 
 h1,p,a{
   font-family: "Roboto Flex", sans-serif;
@@ -151,3 +154,6 @@ h1,p,a{
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+
