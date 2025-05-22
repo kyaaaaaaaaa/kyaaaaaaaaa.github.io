@@ -123,16 +123,16 @@ img {
   color: white;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* space between images */
+  max-width: 600px; /* optional: adjust size of images as desired */
+  margin: 0 auto; /* center the grid */
 }
 
-/* Six columns side by side */
 .column {
-  float: left;
-  width: 16.66%;
+  width: 100%; /* ensure each grid cell is full width */
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -144,15 +144,20 @@ img {
 .demo:hover {
   opacity: 1;
 }
-#udon {
-  clip-path: circle(50%);
-}
+
 
 h1,p,a{
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.mySlides img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 
