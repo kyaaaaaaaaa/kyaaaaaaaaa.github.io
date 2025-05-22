@@ -16,7 +16,7 @@ a {
 
 
 .topnav {
-   background-color: #023047;
+   background-color: #5e503f;
    overflow: hidden;
 }
 
@@ -30,21 +30,21 @@ a {
 }
 
 .topnav a:hover {
-   background-color: #f3e8ff;
+   background-color: #eae0d5;
    color: black;
 }
 
 .topnav a.active {
-   background-color: #219ebc;
+   background-color: #c6ac8f;
    color: black;
 }
 
 body {
-  background-color: #8ecae6;
+  background-color: #eae0d5;
 }
 
 .colorBand {
-   background: #219ebc;
+   background: #c6ac8f;
    height: 90px;
    width: 100%;
 }
